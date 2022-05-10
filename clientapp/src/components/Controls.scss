@@ -1,0 +1,39 @@
+@import '../colors.scss';
+
+.controls {
+    .btn {
+        width: 100%;
+    }
+
+    .bet-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .btn {
+            width: 45%;
+        }
+    }
+
+    .game-buttons {
+        & .btn:first-child {
+            margin-bottom: 15px;
+        }
+    }
+
+    .amount {
+        input {
+            background-color: $main;
+            border: none;
+            width: 100%;
+            padding: 10px 0;
+            color: $secondary;
+
+            &:focus-within {
+                outline: none;
+            }
+        }
+        border: 1px solid $secondary;
+        padding: 0 10px;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,10 @@
+.totals {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    .totals-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
